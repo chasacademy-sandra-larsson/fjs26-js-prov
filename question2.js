@@ -15,8 +15,9 @@ function addUnique(array, value) {
 
 
 // 2.2 Spread med objekt (2p)
-// Skapa en funktion 'updateBookRating' som tar emot ett objekt som argument
-// och använder spread operatorn för att uppdatera objektet med en ny rating
+// Skriv klart funktionen 'updateBookRating' som tar emot ett bokobjekt och en ny rating.
+// Använd spread operatorn och returnera ett nytt objekt med den nya ratingen.
+// Originalobjektet får inte ändras.
 const book = {
   title: "The Hobbit",
   author: "J.R.R. Tolkien",
@@ -34,5 +35,7 @@ function updateBookRating(book, newRating) {
   //Test
   //console.log(addUnique(tags, "react")); // Ska logga ["javascript", "css", "html", "react"]
   //console.log(addUnique(tags, "css")); // Ska logga ["javascript", "css", "html"]
+  //console.log(addUnique(tags, "css") === tags); // Ska logga false (en kopia, inte samma array)
   //console.log(tags); // Ska fortfarande logga ["javascript", "css", "html"]
   //console.log(updateBookRating(book, 5)); // Ska logga { title: 'The Hobbit', author: 'J.R.R. Tolkien', year: 1937, rating: 5 }
+  //console.log(book); // Ska fortfarande logga { title: 'The Hobbit', author: 'J.R.R. Tolkien', year: 1937, rating: 4.5 }

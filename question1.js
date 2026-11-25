@@ -23,4 +23,6 @@ function addIsFast(car) {
 
 
 console.log(addIsFast(car)); // Ska logga { name: "Volvo", speed: 120, isFast: true }
+console.log(addIsFast({ name: "Saab", speed: 100 })); // Ska logga { name: "Saab", speed: 100, isFast: false }
+console.log(car); // Ska fortfarande logga { name: "Volvo", speed: 120 } (car får inte ändras)
 console.log(name, speed, isFast); // Ska logga "Volvo", 120, true

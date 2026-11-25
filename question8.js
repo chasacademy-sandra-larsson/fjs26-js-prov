@@ -86,7 +86,7 @@ const watchList = [
       "Awards": "Nominated for 1 Oscar. Another 15 wins & 66 nominations.",
       "Poster": "http://ia.media-imdb.com/images/M/MV5BNTM3OTc0MzM2OV5BMl5BanBnXkFtZTYwNzUwMTI3._V1_SX300.jpg",
       "Metascore": "70",
-      "imdbRating": "8.3",
+      "imdbRating": "8.0",
       "imdbVotes": "972,584",
       "imdbID": "tt0372784",
       "Type": "movie",
@@ -124,4 +124,4 @@ const watchList = [
 
 
   // Test 
-  console.log(myWatchList(watchList)); // Ska logga: [{ title: "Inception", rating: "8.8" }, { title: "Interstellar", rating: "8.6" }, { title: "The Dark Knight", rating: "9.0" }, { title: "Batman Begins", rating: "8.3" }]
+  console.log(myWatchList(watchList)); // Ska logga: [{ title: "Inception", rating: "8.8" }, { title: "Interstellar", rating: "8.6" }, { title: "The Dark Knight", rating: "9.0" }, { title: "Batman Begins", rating: "8.0" }]

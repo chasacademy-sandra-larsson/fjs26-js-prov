@@ -18,6 +18,8 @@
 
 Varje fråga ligger i en egen fil. Avmarkera den fråga du vill testa i `index.html` och öppna sidan i webbläsaren.
 
+Fråga 10 använder ES-moduler och fungerar inte om du öppnar `index.html` direkt som fil. Starta en lokal server i terminalen i provmappen, till exempel `npx serve .` eller `python3 -m http.server`, och öppna adressen som visas.
+
 ## Inlämning
 
 * Committa och pusha till ditt privata repo. Pusha gärna efter varje fråga.

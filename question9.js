@@ -11,6 +11,8 @@
 //  - egenskaper: name, yhp (YH-poäng)
 //  - metoder:
 //    getCourseInfo()          -> t.ex. "JavaScript 20 yhp"
+//
+// Exportera båda klasserna så att de kan importeras i question10.js.
 
 
 

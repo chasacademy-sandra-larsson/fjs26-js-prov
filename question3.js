@@ -12,4 +12,6 @@ function findMax(array) {
 
 
 //console.log(findMax([3, 1, 9, 4])); // Ska logga 9
+//console.log(findMax([5, 100, 25])); // Ska logga 100
+//console.log(findMax([-3, -10, -7])); // Ska logga -3
 
