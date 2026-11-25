@@ -1,17 +1,21 @@
 // 2.1  Spread med arrayer (2p)
-// Skapa en funktion 'combineArrays' som tar emot två arrayer som argument
-// och använder spread operatorn för att kombinera dem till en enda array.
-// Returnera den nya arrayen
-  
-function combineArrays(arr1, arr2) {
-    // Din kod här.
- 
+// Skriv klart funktionen 'addUnique' som tar emot en array och ett nytt värde.
+// Om värdet inte redan finns i arrayen ska funktionen returnera en ny array
+// med värdet tillagt sist. Om värdet redan finns ska den returnera en kopia
+// av arrayen utan ändringar.
+// Använd spread operatorn. Originalarrayen får inte ändras.
+
+const tags = ["javascript", "css", "html"];
+
+function addUnique(array, value) {
+    // Din kod här:
+
 }
   
 
 
 // 2.2 Spread med objekt (2p)
-// Skapa en funktion 'updateBook' som tar emot ett objekt som argument
+// Skapa en funktion 'updateBookRating' som tar emot ett objekt som argument
 // och använder spread operatorn för att uppdatera objektet med en ny rating
 const book = {
   title: "The Hobbit",
@@ -28,5 +32,7 @@ function updateBookRating(book, newRating) {
 
 
   //Test
-  //console.log(combineArrays([1, 2, 3], [4, 5, 6])); // Ska logga [1, 2, 3, 4, 5, 6]
+  //console.log(addUnique(tags, "react")); // Ska logga ["javascript", "css", "html", "react"]
+  //console.log(addUnique(tags, "css")); // Ska logga ["javascript", "css", "html"]
+  //console.log(tags); // Ska fortfarande logga ["javascript", "css", "html"]
   //console.log(updateBookRating(book, 5)); // Ska logga { title: 'The Hobbit', author: 'J.R.R. Tolkien', year: 1937, rating: 5 }
