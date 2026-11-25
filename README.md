@@ -16,9 +16,10 @@
 3. Gå till **Settings → Collaborators** och bjud in `chasacademy-sandra-larsson`.
 4. Klona ditt repo: `git clone länk-till-ditt-repo`
 
-Varje fråga ligger i en egen fil. Fråga 1–8 testar du genom att avmarkera frågan i `index.html` och öppna sidan i webbläsaren.
+Varje fråga ligger i en egen fil.
 
-Fråga 9 och 10 testar du i terminalen. Stå i provmappen och kör `node question10.js`.
+* **Fråga 6 och 7** använder DOM:en. Dem testar du genom att avmarkera frågan i `index.html` och öppna sidan i webbläsaren.
+* **Övriga frågor** testar du i terminalen med node. Stå i provmappen och kör till exempel `node question1.js`. Fråga 9 och 10 testar du med `node question10.js`.
 
 ## Inlämning
 
