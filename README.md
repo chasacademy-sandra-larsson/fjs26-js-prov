@@ -16,9 +16,9 @@
 3. Gå till **Settings → Collaborators** och bjud in `chasacademy-sandra-larsson`.
 4. Klona ditt repo: `git clone länk-till-ditt-repo`
 
-Varje fråga ligger i en egen fil. Avmarkera den fråga du vill testa i `index.html` och öppna sidan i webbläsaren.
+Varje fråga ligger i en egen fil. Fråga 1–8 testar du genom att avmarkera frågan i `index.html` och öppna sidan i webbläsaren.
 
-Fråga 10 använder ES-moduler och fungerar inte om du öppnar `index.html` direkt som fil. Starta en lokal server i terminalen i provmappen, till exempel `npx serve .` eller `python3 -m http.server`, och öppna adressen som visas.
+Fråga 9 och 10 testar du i terminalen. Stå i provmappen och kör `node question10.js`.
 
 ## Inlämning
 
